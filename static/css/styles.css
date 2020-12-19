@@ -7,7 +7,7 @@
     padding: 0;
 }
 
-.nav li, .nav a, .cta button, .logo a, body {
+.nav li, .nav a, .cta button, .cta2 button, .logo a, body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -57,6 +57,29 @@ header {
 
 .cta button:hover {
     background-color: rgba(0,136,169,0.8);
+}
+
+.cta2 button {
+    margin:20px;
+    padding: 30px 60px;
+    background-color: rgba(0,136,169,1);
+    font-size: 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.github button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.linkedin button:hover {
+    background-color: rgba(38, 117, 190, 0.8);
+}
+
+.devpost button:hover {
+    background-color: rgba(18, 51, 100, 0.8);
 }
 
 .title {
