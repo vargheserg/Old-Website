@@ -53,3 +53,12 @@
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
   }
+
+  .form {
+    padding: 20px;
+    border-radius: 0.5rem;
+  }
+
+  .my-2{
+    margin: 0.5em;
+  }
